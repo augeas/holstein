@@ -7,7 +7,7 @@ where options include:
 
 `--width`: image width, default 512
 `--period`: grid width, default 64
-`--defects`: number of edge defects, default 7
+`--defects`: number of edge defects, default   7
 `--nframes`: number of frames, default 2028
 `--skip`, stepsize between frames, default 2
 `--framerate`: default 30

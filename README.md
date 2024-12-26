@@ -1,6 +1,14 @@
 ## Holstein Checkerboards
 
-The [Holstein rule](https://conwaylife.com/wiki/OCA:Holstein) is totallistic cellular automata with births for 3,5,6,7 or 8 neighbours and survival for 4,6,7 or 8 neighbours. [Paul Rendell](http://rendell-attic.org/) has experimented with using [checkerboards](http://rendell-attic.org/CA/holstein/checkerboard.htm) with edge defects as initial states. Perpetrated in [Python](https://www.python.org/)/[Marimo](https://marimo.io/) by abusing [`scipy.signal.convolve2d`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.convolve2d.html), [`numpy.isin`](https://numpy.org/doc/stable/reference/generated/numpy.isin.html), [`numpy.where`](https://numpy.org/doc/stable/reference/generated/numpy.where.html) and [Pillow](https://pillow.readthedocs.io/en/stable/). See also: [Designing Beauty: The Art of Cellular Automata](https://link.springer.com/book/10.1007/978-3-319-27270-2).
+The [Holstein rule](https://conwaylife.com/wiki/OCA:Holstein) is a totallistic cellular automaton with births for 3,5,6,7 or
+8 neighbours and survival for 4,6,7 or 8 neighbours. [Paul Rendell](http://rendell-attic.org/) has experimented with
+using [checkerboards](http://rendell-attic.org/CA/holstein/checkerboard.htm) with edge defects as initial states.
+Perpetrated in [Python](https://www.python.org/)/[Marimo](https://marimo.io/) by
+abusing [`scipy.signal.convolve2d`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.convolve2d.html),
+[`numpy.isin`](https://numpy.org/doc/stable/reference/generated/numpy.isin.html),
+[`numpy.where`](https://numpy.org/doc/stable/reference/generated/numpy.where.html)
+and [Pillow](https://pillow.readthedocs.io/en/stable/). See also:
+[Designing Beauty: The Art of Cellular Automata](https://link.springer.com/book/10.1007/978-3-319-27270-2).
 
 If you have [`ffmpeg`](https://www.ffmpeg.org/) you can churn out a video with: `python holstein.py --fname video.mp4`
 where options include:
